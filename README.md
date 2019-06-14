@@ -11,6 +11,7 @@
 |项目|起止时间|
 | :--: | :--: | 
 |[《深度学习之TensorFlow》](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow)| 2019.06.13 ~ |
+|[《Python-深度学习-Keras》](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras)|2019.06.14~|
 
 # 3. 数学
 
