@@ -42,3 +42,10 @@ tensorflow-gpu==1.13.1
 
 #### [5-4可视化神经网络中间输出](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras/5-4%E5%8F%AF%E8%A7%86%E5%8C%96%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%AD%E9%97%B4%E8%BE%93%E5%87%BA.ipynb)
 
+### 第六章　深度学习用于文本和序列
+
+#### [6-1ne-hot编码](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras/6-1one-hot%E7%BC%96%E7%A0%81.ipynb)
+
+#### [6-1词嵌入](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras/6-1%E8%AF%8D%E5%B5%8C%E5%85%A5.ipynb)
+
+#### [6-2理解RNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras/6-2%E7%90%86%E8%A7%A3RNN.ipynb)
