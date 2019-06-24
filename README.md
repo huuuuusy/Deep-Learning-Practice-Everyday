@@ -13,6 +13,10 @@
 |[《深度学习之TensorFlow》](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Book/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow)| 2019.06.13 ~ |
 |[《Python-深度学习-Keras》](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Book/Python-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0-Keras)|2019.06.14~|
 
+|Project|内容|
+| :--: | :--: | 
+|[Deep Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Project/Deep%20Learning)|深度学习练手小项目|
+
 # 3. 数学
 
 # 4. OpenCV
