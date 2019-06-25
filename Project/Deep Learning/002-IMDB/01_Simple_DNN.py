@@ -1,9 +1,11 @@
- # @Author: huuuuusy
- # @GitHub: https://github.com/huuuuusy
+"""
+@Author: huuuuusy
+@GitHub: https://github.com/huuuuusy
 
- # IMDB来自电影数据库，包含50000条评论，其中25000条作为训练集，25000条作为测试集
- # 训练集和测试集均包含50%的正面评论和50%的负面评论
- # 本例使用最简单的神经网络对IMDB进行情感分析
+IMDB来自电影数据库，包含50000条评论，其中25000条作为训练集，25000条作为测试集
+训练集和测试集均包含50%的正面评论和50%的负面评论
+本例使用最简单的神经网络对IMDB进行情感分析
+"""
 
 # 下载数据
 from keras.datasets import imdb

@@ -1,10 +1,13 @@
- # @Author: huuuuusy
- # @GitHub: https://github.com/huuuuusy
+"""
+@Author: huuuuusy
+@GitHub: https://github.com/huuuuusy
 
- # MNIST是深度学习领域最常用的数据集，其中包含60000张训练图像和
- # 10000张测试图像。数据集是针对手写数字的分类，每张图是28×28的
- # 灰度图。
- # 本例使用最简单的神经网络对MNIST进行分类。
+MNIST是深度学习领域最常用的数据集，其中包含60000张训练图像和
+10000张测试图像。数据集是针对手写数字的分类，每张图是28×28的
+灰度图
+本例使用最简单的神经网络对MNIST进行分类
+"""
+
 import keras
 keras.__version__
 
