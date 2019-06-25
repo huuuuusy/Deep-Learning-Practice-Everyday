@@ -5,7 +5,7 @@
 MNIST是深度学习领域最常用的数据集，其中包含60000张训练图像和
 10000张测试图像。数据集是针对手写数字的分类，每张图是28×28的
 灰度图
-本例使用最简单的神经网络对MNIST进行分类
+本例使用最简单的全连接神经网络对MNIST进行分类
 """
 
 import keras
@@ -18,13 +18,6 @@ print('train image shape:', x_train.shape) # (60000, 28, 28)
 print('train label shape:', y_train.shape) # (60000,)
 print('test image shape:', x_test.shape) # (10000, 28, 28)
 print('test label shape:', y_test.shape) # (10000,)
-
-# 显示数据
-digit = x_train[0]
-
-import matplotlib.pyplot as plt
-plt.imshow(digit, cmap=plt.cm.binary)
-plt.show()
 
 # 数据准备:将数据归一化到0-1的范围内
 x_train = x_train.reshape((60000, 28*28))
