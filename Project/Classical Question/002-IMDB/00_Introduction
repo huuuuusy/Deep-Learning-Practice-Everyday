@@ -1,0 +1,17 @@
+数据集介绍：
+    IMDB来自电影数据库，包含50000条评论，其中25000条作为训练集，25000条作为测试集
+    训练集和测试集均包含50%的正面评论和50%的负面评论
+
+任务：
+    对给定评论进行情感分析
+
+方法：
+    01_Simple_DNN
+        框架： keras + TensorFlow
+        模型： 全连接神经网络
+    02_Simple_DNN_with_L2
+        框架： keras + TensorFlow
+        模型： 全连接神经网络 + L2正则化
+    03_Simple_DNN_with_Dropout
+        框架： keras + TensorFlow
+        模型： 全连接神经网络 + Dropout正则化

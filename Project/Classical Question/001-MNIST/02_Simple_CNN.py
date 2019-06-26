@@ -2,15 +2,13 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-MNIST是深度学习领域最常用的数据集，其中包含60000张训练图像和
-10000张测试图像。数据集是针对手写数字的分类，每张图是28×28的
-灰度图
 本例使用最简单的卷积网络对MNIST进行分类
-
 """
+
 """
 Part 1. 数据预处理，和上个模型相同
 """
+
 from keras.datasets import mnist
 from keras.utils import to_categorical
 
@@ -28,6 +26,7 @@ test_labels = to_categorical(test_labels)
 """
 Part 2. 构建Simple CNN模型
 """
+
 from keras import layers
 from keras import models
 

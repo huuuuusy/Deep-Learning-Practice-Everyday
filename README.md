@@ -15,7 +15,7 @@
 
 |Project|内容|
 | :--: | :--: | 
-|[Deep Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Project/Deep%20Learning)|深度学习练手小项目|
+|[CLassical Question](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Project/Deep%20Learning)|机器学习 & 深度学习领域的若干经典问题|
 
 # 3. 数学
 
