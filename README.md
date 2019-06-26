@@ -15,18 +15,18 @@
 
 机器学习 & 深度学习领域的若干经典数据集练习，采用不同的框架和方法进行问题解决
 
-##### 001-MNIST
+|Project|
+| :--: |
+|001-MNIST|
+|002-IMDB|
+|003-路透社新闻分类|
+|004-波士顿房价预测|
+|005-猫狗图像分类|
 
-##### 002-IMDB
-
-##### 003-路透社新闻分类
-
-##### 004-波士顿房价预测
-
-##### 005-猫狗图像分类
-
-#### 2. Practice
+#### 2. [Practice](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Project/Practice)
 
 机器学习 & 深度学习领域的杂类问题练习
 
-##### 001-可视化CNN
+|Project|
+| :--: |
+|001-可视化CNN|
