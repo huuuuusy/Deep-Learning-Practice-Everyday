@@ -17,4 +17,7 @@
         模型： VGG16 + 密集连接分类器 （仅在密集连接分类器上训练）
     04_VGG16_End2ENd_Feature_Extraction
         框架： keras + TensorFlow
-        模型： VGG16 + 密集连接分类器 + 数据增强 （冻结VGG16的. 在完整模型上进行端到端训练）
+        模型： VGG16 + 密集连接分类器 + 数据增强 （冻结VGG16，在完整模型上进行端到端训练）
+    05_VGG16_Fine_Tuning
+        框架： keras + TensorFlow
+        模型： VGG16 + 密集连接分类器 + 数据增强 + 微调VGG16顶层 （解冻VGG16顶层，在完整模型上进行端到端训练）
