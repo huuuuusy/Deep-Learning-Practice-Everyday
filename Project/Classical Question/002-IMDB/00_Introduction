@@ -15,9 +15,9 @@
     03_Simple_DNN_with_Dropout
         框架： keras + TensorFlow
         模型： 全连接神经网络 + Dropout正则化
-    04_RNN_Embedding_Layer
+    04_Embedding_Layer
         框架： keras + TensorFlow
         模型： 添加Embedding层
-    05_RNN_Pretrained_Embedding
+    05_Pretrained_Embedding
         框架： keras + TensorFlow
         模型： 添加Embedding层 + GloVe嵌入，利用预训练的模型进行词嵌入
