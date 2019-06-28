@@ -6,7 +6,7 @@
     依据一段时间的温度数据，预测接下来该地区的温度
 
 方法：
-    01_Simple_CNN
+    01_Simple_DNN
         框架： keras + TensorFlow
         模型： 卷积神经网络
     
