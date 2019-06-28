@@ -21,3 +21,9 @@
     05_Pretrained_Embedding
         框架： keras + TensorFlow
         模型： 添加Embedding层 + GloVe嵌入，利用预训练的模型进行词嵌入
+    06_Simple_RNN
+        框架： keras + TensorFlow
+        模型： 使用SimpleRNN层
+    07_Simple_LSTM
+        框架： keras + TensorFlow
+        模型： 使用LSTM层
