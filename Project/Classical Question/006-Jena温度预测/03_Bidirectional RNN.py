@@ -2,8 +2,7 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-使用两层GRU + Dropout进行训练
-GRU是门控循环单元，与LSTM原理基本相同，但是有一些简化，因此运行的计算代价更低
+使用双向GRU训练
 """
 
 """
@@ -162,19 +161,10 @@ Part 5. 绘图
 
 import matplotlib.pyplot as plt
 
-acc = history.history['acc']
-val_acc = history.history['val_acc']
 loss = history.history['loss']
 val_loss = history.history['val_loss']
 
-epochs = range(len(acc))
-
-plt.plot(epochs, acc, 'bo', label='Training acc')
-plt.plot(epochs, val_acc, 'b', label='Validation acc')
-plt.title('Training and validation accuracy')
-plt.legend()
-plt.savefig("03_Bidirectional RNN_Accuracy.png")
-plt.figure()
+epochs = range(len(loss))
 
 plt.plot(epochs, loss, 'bo', label='Training loss')
 plt.plot(epochs, val_loss, 'b', label='Validation loss')

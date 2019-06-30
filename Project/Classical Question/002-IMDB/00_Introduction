@@ -27,3 +27,6 @@
     07_Simple_LSTM
         框架： keras + TensorFlow
         模型： 使用LSTM层
+    08_Conv1D
+        框架： keras + TensorFlow
+        模型： 使用Conv1D层

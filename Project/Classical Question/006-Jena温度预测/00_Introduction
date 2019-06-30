@@ -8,5 +8,16 @@
 方法：
     01_Simple_DNN
         框架： keras + TensorFlow
-        模型： 卷积神经网络
-    
+        模型： 密集连接层
+    02_Simple_GRU
+        框架： keras + TensorFlow
+        模型： 两层GRU堆叠
+    03_Bidirectional RNN
+        框架： keras + TensorFlow
+        模型： 双向GRU
+    04_Conv1D
+        框架： keras + TensorFlow
+        模型： Conv1D
+    05_Conv1D_with_GRU
+        框架： keras + TensorFlow
+        模型： Conv1D + GRU
