@@ -148,14 +148,14 @@ plt.plot(epochs, smooth_curve(acc), 'bo', label='Smoothed training acc')
 plt.plot(epochs, smooth_curve(val_acc), 'b', label='Smoothed validation acc')
 plt.title('Training and validation accuracy')
 plt.legend()
-
+plt.savefig("05_VGG16_Fine_Tuning_Accuracy.png")
 plt.figure()
 
 plt.plot(epochs, smooth_curve(loss), 'bo', label='Smoothed training loss')
 plt.plot(epochs, smooth_curve(val_loss), 'b', label='Smoothed validation loss')
 plt.title('Training and validation loss')
 plt.legend()
-
+plt.savefig("05_VGG16_Fine_Tuning_Loss.png")
 plt.show()
 
 """

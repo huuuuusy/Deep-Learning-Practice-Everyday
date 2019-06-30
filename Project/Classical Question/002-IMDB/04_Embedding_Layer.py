@@ -40,3 +40,30 @@ model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['acc'])
 model.summary()
 
 history = model.fit(x_train, y_train,  epochs=10, batch_size=32, validation_split=0.2)
+
+"""
+Part 3. 绘制图像 
+"""
+
+import matplotlib.pyplot as plt
+
+acc = history.history['acc']
+val_acc = history.history['val_acc']
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+epochs = range(len(acc))
+
+plt.plot(epochs, acc, 'bo', label='Training acc')
+plt.plot(epochs, val_acc, 'b', label='Validation acc')
+plt.title('Training and validation accuracy')
+plt.legend()
+plt.savefig("04_Embedding_Layer_Accuracy.png")
+plt.figure()
+
+plt.plot(epochs, loss, 'bo', label='Training loss')
+plt.plot(epochs, val_loss, 'b', label='Validation loss')
+plt.title('Training and validation loss')
+plt.legend()
+plt.savefig("04_Embedding_Layer_Loss.png")
+plt.show()

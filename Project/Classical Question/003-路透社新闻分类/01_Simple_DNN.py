@@ -91,6 +91,7 @@ plt.title('Training and validation loss')
 plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
+plt.savefig("01_Simple_DNN_Loss.png")
 plt.show()
 
 # 训练准确率和测试准确率
@@ -102,6 +103,7 @@ plt.title('Training and validation accuracy')
 plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
+plt.savefig("01_Simple_DNN_Accuracy.png")
 plt.show()
 
 # 测试集准确率

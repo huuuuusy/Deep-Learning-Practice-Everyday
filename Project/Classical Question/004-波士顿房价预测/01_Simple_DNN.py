@@ -88,6 +88,7 @@ smooth_mae_history = smooth_curve(average_mae_history[10:])
 plt.plot(range(1, len(smooth_mae_history) + 1), smooth_mae_history)
 plt.xlabel('Epochs')
 plt.ylabel('Validation MAE')
+plt.savefig("01_Simple_DNN_MAE.png")
 plt.show()
 
 # 在测试集上验证
