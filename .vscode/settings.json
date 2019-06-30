@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "/home/hu/anaconda3/envs/tf-gpu/bin/python"
+    "python.pythonPath": "/home/hu/anaconda3/envs/tf-gpu/bin/python",
+    "python.linting.pylintArgs": [
+	    "--errors-only",
+	    "--disable=E0401"
+    ],
 }
