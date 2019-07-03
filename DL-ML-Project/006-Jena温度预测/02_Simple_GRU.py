@@ -2,8 +2,12 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-使用两层GRU + Dropout进行训练
-GRU是门控循环单元，与LSTM原理基本相同，但是有一些简化，因此运行的计算代价更低
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 使用两层GRU + Dropout进行训练
+      GRU是门控循环单元，与LSTM原理基本相同，但是有一些简化，因此运行的计算代价更低
 """
 
 """

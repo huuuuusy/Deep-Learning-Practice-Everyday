@@ -2,8 +2,12 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-使用图像增强技术，扩大小型数据集中的样本数量
-使用dropout正则化，减缓过拟合
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 使用图像增强技术，扩大小型数据集中的样本数量
+      使用dropout正则化，减缓过拟合
 """
 
 """

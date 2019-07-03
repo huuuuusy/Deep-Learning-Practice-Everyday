@@ -2,11 +2,14 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-使用Conv1D层和GRU层处理温度数据
-
-在RNN之前放置Conv1D进行预处理，可以将那些非常长的、RNN无法处理的序列转化为高级特征组成的更短的序列
-然后提取的特征组成的这些序列成为网络中的RNN的输入
-模型可以处理更长的序列，即查看更早的序列（增大lookback）或者分辨率更高（降低step）的序列
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 使用Conv1D层和GRU层处理温度数据
+      在RNN之前放置Conv1D进行预处理，可以将那些非常长的、RNN无法处理的序列转化为高级特征组成的更短的序列
+      然后提取的特征组成的这些序列成为网络中的RNN的输入
+      模型可以处理更长的序列，即查看更早的序列（增大lookback）或者分辨率更高（降低step）的序列
 """
 
 """

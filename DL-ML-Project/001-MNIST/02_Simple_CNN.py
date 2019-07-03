@@ -2,7 +2,11 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-本例使用最简单的卷积网络对MNIST进行分类
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 本例使用最简单的卷积网络对MNIST进行分类
 """
 
 """

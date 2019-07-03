@@ -2,13 +2,15 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-可视化图像中类激活的热力图：理解图像中哪部分被识别为属于某种类别，从而定位图像中的物体
-
-类激活可视化是对输入图像生成类激活热力图
-类激活热力图是与特定输出类别相关的二维分数网格，对任何输入图像的每个位置都要进行计算，表示每个位置对该类别的重要程度
-
-具体实现方式参考：
-Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 可视化图像中类激活的热力图：理解图像中哪部分被识别为属于某种类别，从而定位图像中的物体
+      类激活可视化是对输入图像生成类激活热力图
+      类激活热力图是与特定输出类别相关的二维分数网格，对任何输入图像的每个位置都要进行计算，表示每个位置对该类别的重要程度
+      具体实现方式参考：
+        Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization
 """
 
 """

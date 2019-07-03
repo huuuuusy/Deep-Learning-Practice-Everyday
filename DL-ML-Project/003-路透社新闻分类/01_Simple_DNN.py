@@ -2,8 +2,12 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-Reuters数据集是新闻的多分类文本数据集，有46个主题
-每个主题的数量不同，但是每个主题的训练集中至少有10个样本
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： Reuters数据集是新闻的多分类文本数据集，有46个主题
+      每个主题的数量不同，但是每个主题的训练集中至少有10个样本
 """
 
 # 下载数据

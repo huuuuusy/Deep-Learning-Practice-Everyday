@@ -2,7 +2,11 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-使用Embedding层作为模型第一层，在完成主任务的同时进行词嵌入学习
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 使用Embedding层作为模型第一层，在完成主任务的同时进行词嵌入学习
 """
 
 """

@@ -2,9 +2,12 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-可视化CNN的中间输出（中间激活）：理解CNN连续的层如何对输入进行变换
-
-对于给定输入，可视化网络中各个卷积层和池化层的特征图
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 可视化CNN的中间输出（中间激活）：理解CNN连续的层如何对输入进行变换
+      对于给定输入，可视化网络中各个卷积层和池化层的特征图
 """
 
 """

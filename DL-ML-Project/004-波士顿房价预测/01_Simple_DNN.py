@@ -2,8 +2,12 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-波士顿房价预测数据包含404个训练样本，102个测试样本
-预测房价是一个回归问题
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 波士顿房价预测数据包含404个训练样本，102个测试样本
+      预测房价是一个回归问题
 """
  
 # 下载数据

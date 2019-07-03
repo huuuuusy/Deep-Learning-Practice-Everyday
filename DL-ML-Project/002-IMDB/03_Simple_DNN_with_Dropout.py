@@ -2,11 +2,14 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 
-对某一层网络使用dropout正则化，就是在训练过程中随机将该层的一些输出特征舍弃(设置为0)
-dropout rate是被设置为0的特征所占比例，通常在0.2~0.5的范围内
-测试时没有单元被舍弃，但是该层输出值需要按照dropout的比例缩小，因为此时比训练时有更多的单元被激活，需要加以平衡
-
-在01_Simple_DNN的模型基础上增加dropout正则化，预防过拟合
+系统： Ubuntu 18.04
+IDE:  VS Code 1.35.1
+框架： TensorFlow-GPU == 1.13.1
+      keras == 2.2.3
+介绍： 对某一层网络使用dropout正则化，就是在训练过程中随机将该层的一些输出特征舍弃(设置为0)
+      dropout rate是被设置为0的特征所占比例，通常在0.2~0.5的范围内
+      测试时没有单元被舍弃，但是该层输出值需要按照dropout的比例缩小，因为此时比训练时有更多的单元被激活，需要加以平衡
+      在01_Simple_DNN的模型基础上增加dropout正则化，预防过拟合
 """
 
 """
