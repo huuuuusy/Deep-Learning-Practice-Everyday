@@ -21,6 +21,13 @@
 ||[03_手写数字识别](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/03_%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)【已完成】|
 |002-Decision Tree[【讲解】](https://github.com/apachecn/AiLearning/blob/master/docs/ml/3.%E5%86%B3%E7%AD%96%E6%A0%91.md)|[01_贷款发放](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
 
+#### 1.1.2 《统计学习方法》
+
+参考李航2012版本《统计学习方法》，作为《机器学习实战》的理论补充
+
+|项目|进度|
+| :--: |:--: |
+
 ### 1.2 深度学习
 
 #### 1.2.1 《深度学习之TensorFlow》
