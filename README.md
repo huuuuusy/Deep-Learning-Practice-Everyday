@@ -1,8 +1,10 @@
 # Deep Learning Practice Everyday
 
-## 1. 算法
+## 1. 书籍
 
 ### 1.1 机器学习
+
+#### 1.1.1 《机器学习实战》
 
 机器学习算法，主要参考《机器学习实战》和[Jack Cui](https://github.com/Jack-Cherish/Machine-Learning)的博客
 
@@ -13,11 +15,22 @@
 ||[03_手写数字识别](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/03_%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)【已完成】|
 |[002-Decision Tree](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree)|[01_贷款发放](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
 
+### 1.2 深度学习
+
+#### 1.2.1 《深度学习之TensorFlow》
+
+TensorFlow框架学习
+
+|项目|进度|
+| :--: |:--: |
+
 ## 2. 项目
 
 ### 2.1 基础项目
 
 机器学习 & 深度学习领域的若干经典数据集练习，采用不同的框架和方法进行问题解决
+
+001~008主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)
 
 |项目|项目|项目|项目|
 | :--: |:--: |:--: |:--: |
@@ -31,3 +44,5 @@
 |项目|
 | :--: |
 |[001-可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
+
+# 3. 经典论文&模型
