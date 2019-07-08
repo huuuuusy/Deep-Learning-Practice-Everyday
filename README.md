@@ -6,14 +6,20 @@
 
 #### 1.1.1 《机器学习实战》
 
-机器学习算法，主要参考《机器学习实战》和[Jack Cui](https://github.com/Jack-Cherish/Machine-Learning)的博客
+机器学习算法，主要参考《机器学习实战》
+
+其他参考资料：
+
+[Jack Cui](https://github.com/Jack-Cherish/Machine-Learning)的博客
+
+[ApacheAI](https://github.com/apachecn/AiLearning#1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0---%E5%9F%BA%E7%A1%80)的讲解【强烈推荐】
 
 |项目|进度|
 | :--: |:--: |
-|[001-kNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN)|[01_简单kNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/01_%E7%AE%80%E5%8D%95kNN)【已完成】|
+|001-kNN[【讲解】](https://github.com/apachecn/AiLearning/blob/master/docs/ml/2.k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95.md)|[01_简单kNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/01_%E7%AE%80%E5%8D%95kNN)【已完成】|
 ||[02_约会网站数据分析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/02_%E7%BA%A6%E4%BC%9A%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)【已完成】|
 ||[03_手写数字识别](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-KNN/03_%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)【已完成】|
-|[002-Decision Tree](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree)|[01_贷款发放](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
+|002-Decision Tree[【讲解】](https://github.com/apachecn/AiLearning/blob/master/docs/ml/3.%E5%86%B3%E7%AD%96%E6%A0%91.md)|[01_贷款发放](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
 
 ### 1.2 深度学习
 
