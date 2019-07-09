@@ -4,4 +4,5 @@
 	    "--errors-only",
 	    "--disable=E0401"
     ],
+    "git.ignoreLimitWarning": true,
 }
