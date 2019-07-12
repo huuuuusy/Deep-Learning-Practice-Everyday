@@ -36,7 +36,8 @@ TensorFlow框架学习
 
 |项目|进度|
 | :--: |:--: |
-|[线性回归]|【已完成】|
+|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/301-线性回归)|【已完成】|
+|[MNIST]||
 
 ## 2. 项目
 
