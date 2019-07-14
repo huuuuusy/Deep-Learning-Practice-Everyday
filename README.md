@@ -60,4 +60,10 @@ TensorFlow框架学习
 | :--: |
 |[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/101-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
 
-## 3. 经典论文&模型
+## 3. 学习笔记
+
+### 3.1 机器学习
+
+### 3.2 深度学习
+
+#### 激活函数
