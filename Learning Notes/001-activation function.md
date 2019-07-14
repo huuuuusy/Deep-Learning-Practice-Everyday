@@ -10,7 +10,7 @@
 
 ![](../images/0001.jpeg)
 
-$f(x)=\frac{1}{1+e^{-x}}$
+![](../images/0004.gif)
 
     tf.nn.sigmoid(x, name = None)
 
@@ -49,8 +49,6 @@ sigmoid函数输出的函数会落到(0,1)的区间内。随着ｘ接近正负�
 没有改变Sigmoid函数的最大问题——由于饱和性产生的梯度消失。
 
 ### 3. ReLU
-
-
 
 ## 参考
 
