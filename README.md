@@ -39,6 +39,12 @@ TensorFlow框架学习
 |[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/301-线性回归)|【已完成】|
 |[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/DL-ML-Project/001-MNIST/03_Softmax_Regression.py)|【已完成】|
 
+### 1.3 数据处理
+
+#### 1.3.1 《利用Python进行数据分析》
+
+学习利用Pandas, Numpy等科学计算工具包进行数据分析
+
 ## 2. 项目
 
 ### 2.1 基础项目
