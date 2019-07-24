@@ -16,10 +16,8 @@
 
 |章节|内容|
 | :--: |:--: |
-|[kNN](https://github.com/apachecn/AiLearning/blob/master/docs/ml/2.k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95.md)|[01_简单kNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/01_%E7%AE%80%E5%8D%95kNN)|
-||[02_约会网站数据分析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/02_%E7%BA%A6%E4%BC%9A%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)|
-||[03_手写数字识别](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/03_%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)|
-|[Decision Tree](https://github.com/apachecn/AiLearning/blob/master/docs/ml/3.%E5%86%B3%E7%AD%96%E6%A0%91.md)|[01_贷款发放](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/202-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
+|[kNN](https://github.com/apachecn/AiLearning/blob/master/docs/ml/2.k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95.md)|[【简单kNN】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/01_%E7%AE%80%E5%8D%95kNN)[【约会网站数据分析】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/02_%E7%BA%A6%E4%BC%9A%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)[【手写数字识别】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/201-KNN/03_%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)|
+|[Decision Tree](https://github.com/apachecn/AiLearning/blob/master/docs/ml/3.%E5%86%B3%E7%AD%96%E6%A0%91.md)|[【贷款发放】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/202-Decision%20Tree/01_%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
 
 #### 1.1.2 《统计学习方法》
 
@@ -34,10 +32,9 @@
 
 TensorFlow框架学习
 
-|项目|进度|
-| :--: |:--: |
-|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/301-线性回归)|【已完成】|
-|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/DL-ML-Project/001-MNIST/03_Softmax_Regression.py)|【已完成】|
+|项目|项目|项目|项目|
+| :--: |:--: |:--: |:--: |
+|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/301-线性回归)|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/DL-ML-Project/001-MNIST/03_Softmax_Regression.py)|
 
 ### 1.3 数据处理
 
@@ -47,11 +44,7 @@ TensorFlow框架学习
 
 |章节|内容|
 | :--: |:--: |
-|[001-Python内建数据结构](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)|[元组](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/01_Tuple.py)|
-||[列表](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/02_List.py)|
-||[内建函数](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/03_Built-in_Sequence_Functions.py)|
-||[字典](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/04_Dictionary.py)|
-||[集合](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/05_Set.py)|
+|[001-Python内建数据结构](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)|[【元组】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/01_Tuple.py)[【列表】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/02_List.py)[【内建函数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/03_Built-in_Sequence_Functions.py)[【字典】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/04_Dictionary.py)[【集合】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/001-Python%E5%86%85%E5%BB%BA%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/05_Set.py)|
 
 ## 2. 项目
 
@@ -70,8 +63,8 @@ TensorFlow框架学习
 
 机器学习 & 深度学习领域的杂类问题练习
 
-|项目|
-| :--: |
+|项目|项目|项目|项目|
+| :--: |:--: |:--: |:--: |
 |[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/101-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
 
 ## 3. 学习笔记
