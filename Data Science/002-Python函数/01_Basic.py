@@ -26,7 +26,7 @@ def clean_strings1(strings):
         result.append(value)
     return result
 
-print(clean_strings1(states))
+print(clean_strings1(states)) # ['Alabama', 'Georgia', 'Georgia', 'Georgia', 'Florida', 'South   Carolina', 'West Virginia']
 
 # 方法二
 print('Method 2:')
@@ -43,9 +43,10 @@ def clean_strings2(strings, ops):
         result.append(value)
     return result
 
-print(clean_strings2(states, clean_ops))
+print(clean_strings2(states, clean_ops)) # ['Alabama', 'Georgia', 'Georgia', 'Georgia', 'Florida', 'South   Carolina', 'West Virginia']
 
 # 方法三
 print('Method ３:')
 for x in map(remove_punctuation, states):
     print(x)
+#    Alabama Georgia Georgia georgia FlOrIda south   carolina West virgini

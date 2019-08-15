@@ -16,27 +16,27 @@ import numpy as np
 print('Example 1:')
 data1 = [6, 7.5, 8, 0, 1]
 arr1 = np.array(data1)
-print(arr1)
-print(arr1.dtype)
+print(arr1) # [6.  7.5 8.  0.  1. ]
+print(arr1.dtype) # float64
 
 # 长度相同的List将生成多维ndarray
 print('Example 2:')
 data2 = [[1, 2, 3, 4], [5, 6, 7, 8]]
 arr2 = np.array(data2)
-print(arr2)
-print(arr2.ndim)
-print(arr2.shape)
-print(arr2.dtype)
+print(arr2) # [[1 2 3 4][5 6 7 8]]
+print(arr2.ndim) # 2
+print(arr2.shape) # (2, 4)
+print(arr2.dtype) # int64
 
 # 创建
 print('Example 3:')
-print(np.zeros(10))
-print(np.ones((3,6)))
-print(np.empty((2,3,2))) # 创建没有初始化值的数组
+print(np.zeros(10)) # [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+print(np.ones((3,6))) # [[1. 1. 1. 1. 1. 1.][1. 1. 1. 1. 1. 1.][1. 1. 1. 1. 1. 1.]]
+print(np.empty((2,3,2))) # 创建没有初始化值的数组 # [[[5.53353523e-322 5.53353523e-322][4.68918495e-310 6.94920701e-310][6.94920475e-310 7.16395186e-322]][[7.90505033e-322 6.37344683e-322][4.68918504e-310 4.68918504e-310][7.90505033e-323 7.90505033e-323]]]
 
 # arange()函数生成数组，类似于range
 print('Example 4:')
-print(np.arange(15))
+print(np.arange(15)) # [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14]
 
 """
 ndarray数据类型
@@ -45,22 +45,22 @@ ndarray数据类型
 print('Example 5:')
 arr1 = np.array([1, 2, 3], dtype=np.float64)
 arr2 = np.array([1, 2, 3], dtype=np.int32)
-print(arr1.dtype)
-print(arr2.dtype)
+print(arr1.dtype) # float64
+print(arr2.dtype) # int32
 
 # astype转化数据类型
 print('Example 6:')
 arr = np.array([1, 2, 3, 4, 5])
-print(arr.dtype)
+print(arr.dtype) # int64
 float_arr = arr.astype(np.float64)
-print(float_arr.dtype)
+print(float_arr.dtype) # float64
 
 # 使用其他数组的dtype来转化数据类型
 print('Example 7:')
 int_array = np.arange(10)
-print(int_array)
+print(int_array) # [0 1 2 3 4 5 6 7 8 9]
 calibers = np.array([.22, .270, .357, .380, .44, .50], dtype=np.float64)
-print(int_array.astype(calibers.dtype))
+print(int_array.astype(calibers.dtype)) # [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]
 
 """
 NumPy数组算术
@@ -68,27 +68,27 @@ NumPy数组算术
 # 任意两个同尺寸的数组之间的算术操作都应用了逐元素的操作方式
 print('Example 8:')
 arr = np.array([[1., 2., 3.], [4., 5., 6.]])
-print(arr)
-print(arr * arr) # 逐元素相乘
-print(arr - arr)
+print(arr) # [[1. 2. 3.][4. 5. 6.]]
+print(arr * arr) # 逐元素相乘 # [[ 1.  4.  9.][16. 25. 36.]]
+print(arr - arr) # [[0. 0. 0.][0. 0. 0.]]
 
 # 带有标量计算的算术操作，会把计算参数传递给数组的每一个元素
 print('Example 9:')
-print(1 / arr)
-print(arr ** 0.5)
+print(1 / arr) # [[1.         0.5        0.33333333][0.25       0.2        0.16666667]]
+print(arr ** 0.5) # [[1.         1.41421356 1.73205081][2.         2.23606798 2.44948974]]
 
 # 同尺寸数组之间比较，会产生一个布尔值
 print('Example 10:')
 arr2 = np.array([[0., 4., 1.], [7., 2., 12.]])
-print(arr2)
-print(arr2 > arr) # 逐元素比较
+print(arr2) # [[ 0.  4.  1.][ 7.  2. 12.]]
+print(arr2 > arr) # 逐元素比较 [[False  True False][ True False  True]]
 
 """
 基础索引与切片
 """
 print('Example 11:')
 arr = np.arange(10)
-print(arr)
+print(arr) # [0 1 2 3 4 5 6 7 8 9]
 print(arr[5:8]) # [5 6 7]
 # 注意:修改切片时，原数组也会被改变，说明NumPy的切片是直接在原数组上进行修改，而非对原数组的拷贝
 # 这一点与python自带的list等数据结构完全不同，一定要区分！！！
@@ -110,7 +110,7 @@ print(arr[1:6]) # [ 1  2  3  4 12]
 # 对于高维数组，arr2d[:2]指按照轴0(行)进行切片
 print('Example 13:')
 arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(arr2d)
+print(arr2d) # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 print(arr2d[:2]) # [[1 2 3][4 5 6]]
 
 # arr2d[:2, :1]指定行切片和列切片
@@ -124,7 +124,7 @@ print(arr2d[:2, 1:]) # [[2 3][5 6]]
 print('Example 15:')
 names = np.array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'])
 data = np.random.randn(7, 4)
-print(names)
+print(names) # ['Bob' 'Joe' 'Will' 'Bob' 'Will' 'Joe' 'Joe']
 print(data)
 print(names == 'Bob') # [ True False False  True False False False]
 print(data[names == 'Bob']) # 返回data的第0行和第3行，对应上面的True
@@ -181,14 +181,14 @@ print(arr[[1, 5, 7, 2]][:, [0, 3, 1, 2]]) # [[ 4  7  5  6] [20 23 21 22] [28 31 
 # 转置
 print('Example 22:')
 arr = np.arange(15).reshape((3, 5))
-print(arr)
-print(arr.T)
+print(arr) # [[ 0  1  2  3  4] [ 5  6  7  8  9] [10 11 12 13 14]]
+print(arr.T) # [[ 0  5 10] [ 1  6 11] [ 2  7 12] [ 3  8 13] [ 4  9 14]]
 
 # 转置＋计算内积
 print('Example 23:')
 arr = np.arange(15).reshape((3, 5))
-print(arr)
-print(np.dot(arr.T, arr))
+print(arr) # [[ 0  1  2  3  4] [ 5  6  7  8  9] [10 11 12 13 14]]
+print(np.dot(arr.T, arr)) # [[125 140 155 170 185] [140 158 176 194 212] [155 176 197 218 239] [170 194 218 242 266] [185 212 239 266 293]]
 
 # transpose()换轴
 print('Example 24:')

@@ -13,44 +13,44 @@ IDE:  VS Code 1.36
 print('Example 32:')
 empty_dict = {}
 d1 = {'a' : 'some value', 'b' : [1, 2, 3, 4]}
-print(d1)
+print(d1) # {'a': 'some value', 'b': [1, 2, 3, 4]}
 d1[7] = 'an integer' # 插入元素
-print(d1)
-print(d1['b']) # 检索元素
+print(d1) # {'a': 'some value', 'b': [1, 2, 3, 4], 7: 'an integer'}
+print(d1['b']) # 检索元素 # [1, 2, 3, 4]
 
 # 使用in检查元素是否在字典的键中
 print('Example 33:')
-print('b' in d1)
+print('b' in d1) # True 
 
 # 使用del()删除值
 print('Example 34:')
 d1[5] = 'some value'
 d1['dummy'] = 'another value'
-print(d1)
-del d1[5]
-print(d1)
+print(d1) # {'a': 'some value', 'b': [1, 2, 3, 4], 7: 'an integer', 5: 'some value', 'dummy': 'another value'}
+del d1[5] 
+print(d1) # {'a': 'some value', 'b': [1, 2, 3, 4], 7: 'an integer', 'dummy': 'another value'}
 
 # 使用pop()删除值,pop()会返回被删除的值并删除键
 print('Example 35:')
 ret = d1.pop('dummy')
-print(ret)
-print(d1)
+print(ret) # another value
+print(d1) # {'a': 'some value', 'b': [1, 2, 3, 4], 7: 'an integer'}
 
 # keys()和values()分别提供键、值的迭代器
 # 返回的键或者值没有特定顺序，但是会保持键－值的对应关系
 print('Example 36:')
-print(list(d1.keys()))
-print(list(d1.values()))
+print(list(d1.keys())) # ['a', 'b', 7]
+print(list(d1.values())) # ['some value', [1, 2, 3, 4], 'an integer']
 
 # update()可以将两个字典合并
 print('Example 37:')
 d1.update({'b' : 'foo', 'c' : 12})
-print(d1)
+print(d1) # {'a': 'some value', 'b': 'foo', 7: 'an integer', 'c': 12}
 
 # 从序列生成字典
 print('Example 38:')
 mapping = dict(zip(range(5), reversed(range(5))))
-print(mapping)
+print(mapping) # {0: 4, 1: 3, 2: 2, 3: 1, 4: 0}
 
 # 使用默认值构建字典
 print('Example 39:')
@@ -59,10 +59,11 @@ from collections import defaultdict
 by_letter = defaultdict(list) 
 for word in words: 
     by_letter[word[0]].append(word)
+print(by_letter) # defaultdict(<class 'list'>, {'a': ['apple', 'atom'], 'b': ['bat', 'bar', 'book']})
 
 # 字典的键必须是不可变对象
 # 如果想用列表作为键，必须先哈希化,将其转化为元组
 print('Example 40:')
 d = {}
 d[tuple([1, 2, 3])] = 5
-print(d)
+print(d) # {(1, 2, 3): 5}
