@@ -2,7 +2,7 @@
 @Author: huuuuusy
 @GitHub: https://github.com/huuuuusy
 系统： Ubuntu 18.04
-IDE:  VS Code 1.36
+IDE:  VS Code 1.37
 工具： python == 3.7.3
 介绍： 使用NumPy数组进行面向数组编程，参考《利用Python进行数据分析》4.3
 """
@@ -66,9 +66,50 @@ print(arr.sum(axis=0)) # axis = 0表示沿着纵轴运算　[-0.53596593 -1.4497
 print('Example 8:')
 arr = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])
 print(arr) # [[0 1 2] [3 4 5] [6 7 8]]
-print(arr.cumsum(axis=0)) # [[ 0  1  2] [ 3  5  7] [ 9 12 15]]
-print(arr.cumprod(axis=1)) # [[  0   0   0] [  3  12  60] [  6  42 336]]
+print(arr.cumsum(axis=0)) # cumsum表示从0开始的累计和　[[ 0  1  2] [ 3  5  7] [ 9 12 15]]
+print(arr.cumprod(axis=1)) # cumprod表示从１开始的累计积[[  0   0   0] [  3  12  60] [  6  42 336]]
 
+"""
+布尔值数组
+"""
 print('Example 9:')
+arr = np.random.randn(100)
+print((arr > 0).sum()) # 统计随机产生的ndarray中正数的个数　
+bools = np.array([False, False, True, False])
+print(bools.any()) # any()检查数组中是否至少有一个True 
+print(bools.all()) # all()检查数组是否均为True
 
-print('Example :')
+"""
+排序
+"""
+print('Example 10:')
+arr  = np.random.randn(6)
+print(arr) # [-2.31933477 -0.05466234 -0.80974333  0.35521019  0.74005554 -0.02727645]
+arr.sort() #　sort()按位置排序
+print(arr) # [-2.31933477 -0.80974333 -0.05466234 -0.02727645  0.35521019  0.74005554]
+
+print('Example 11:')
+arr = np.random.randn(2,3)
+print(arr) # [[-0.35574883 -0.07969707  1.70822511] [-0.75730269 -0.82255508  0.3292006 ]]
+arr.sort(1) # sort()可以指定轴向排序，0为纵轴，1为横轴
+print(arr) # [[-0.35574883 -0.07969707  1.70822511] [-0.82255508 -0.75730269  0.3292006 ]]
+
+"""
+唯一值
+np.unique()返回的是数组中唯一值排序后形成的数组
+相当于sorted(set(arr))
+"""
+print('Example 12:')
+names = np.array(['Bob', 'Joe', 'Will', 'Bob', 'Will', 'Joe', 'Joe'])
+print(np.unique(names)) # ['Bob' 'Joe' 'Will']
+ints = np.array([3, 3, 3, 2, 2, 1, 1, 4, 4])
+print(np.unique(ints)) # [1 2 3 4]
+
+"""
+集合逻辑
+np.in1d()检查一个数组中的值是否在另一个数组中
+"""
+print('Example 13:')
+values = np.array([6, 0, 0, 3, 2, 5, 6])
+print(np.in1d(values, [2, 3, 6])) # [ True False False  True  True False  True]
+
