@@ -13,6 +13,3 @@
     02_Simple_CNN
         框架： keras + TensorFlow
         模型： 卷积神经网络
-    03_Softmax_Regression.py
-        框架： TensorFlow
-        模型： Softmax Regression神经元
