@@ -42,7 +42,7 @@ TensorFlow框架学习
 
 |项目|项目|项目|项目|
 | :--: |:--: |:--: |:--: |
-|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/01-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/DL-ML-Project/001-MNIST/03_Softmax_Regression.py)|
+|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/01-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/02-MNIST)|
 
 ## 3 数据处理
 
