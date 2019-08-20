@@ -1,8 +1,4 @@
 {
     "python.pythonPath": "/home/hu/anaconda3/envs/tf-gpu/bin/python",
-    "python.linting.pylintArgs": [
-	    "--errors-only",
-	    "--disable=E0401"
-    ],
-    "git.ignoreLimitWarning": true,
+    "python.linting.pylintArgs": [ "----extension-pkg-whitelist=1xml" ],
 }
