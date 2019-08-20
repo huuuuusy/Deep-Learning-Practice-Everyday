@@ -26,10 +26,15 @@
 
 ## 2 深度学习
 
-### 2.1 《python深度学习》(https://github.com/fchollet/deep-learning-with-python-notebooks)
+### 2.1 [《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)
 
 keras开发者编写，介绍利用keras进行深度学习模型构建和训练。
 
+|项目|项目|项目|项目|
+| :--: |:--: |:--: |:--: |
+|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/01-MNIST)|[IMDB](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/02-IMDB)|[路透社新闻分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/03-%E8%B7%AF%E9%80%8F%E7%A4%BE%E6%96%B0%E9%97%BB%E5%88%86%E7%B1%BB)|[波士顿房价预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/04-%E6%B3%A2%E5%A3%AB%E9%A1%BF%E6%88%BF%E4%BB%B7%E9%A2%84%E6%B5%8B)|
+|[猫狗图像分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/05-%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB)|[Jena温度预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/06-Jena%E6%B8%A9%E5%BA%A6%E9%A2%84%E6%B5%8B)|[LSTM文本生成](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/07-LSTM%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90)|[DeepDream](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/08-DeepDream)|
+|[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/09-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
 
 ### 2.２《深度学习之TensorFlow》
 
@@ -54,23 +59,3 @@ TensorFlow框架学习
 |[003-文件操作](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/003-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)|[【总结：常见文件操作】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/003-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C#%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C)<br>[【总结：Python文件模式】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/003-%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C#python%E6%96%87%E4%BB%B6%E6%A8%A1%E5%BC%8F)|
 |[004-NumPy基础](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80)|[【ndarray操作】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/01_ndarray.py)<br>[【使用数组进行面向对象编程】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/03_Array_Oriented_Programming.py)<br>[【使用数组进行文件输入输出】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/04_File%20Input%20and%20Output%20with%20Arrays.py)<br>[【线性代数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/05_%20Linear%20Algebra.py)<br>[【伪随机数生成】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/06_Pseudorandom%20Number%20Generation.py)<br>[【随机漫步】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80/07_Random%20Walks.py)<br>[【总结：数组生成函数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E6%95%B0%E7%BB%84%E7%94%9F%E6%88%90%E5%87%BD%E6%95%B0)<br>[【总结：一元通用函数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E4%B8%80%E5%85%83%E9%80%9A%E7%94%A8%E5%87%BD%E6%95%B0)<br>[【总结：二元通用函数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E4%BA%8C%E5%85%83%E9%80%9A%E7%94%A8%E5%87%BD%E6%95%B0)<br>[【总结：基础数组统计方法】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E5%9F%BA%E7%A1%80%E6%95%B0%E7%BB%84%E7%BB%9F%E8%AE%A1%E6%96%B9%E6%B3%95)<br>[【总结：数组的集合操作】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E6%95%B0%E7%BB%84%E7%9A%84%E9%9B%86%E5%90%88%E6%93%8D%E4%BD%9C)<br>[【总结：常用numpy.linalg函数】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#%E5%B8%B8%E7%94%A8numpylinalg%E5%87%BD%E6%95%B0)<br>[【总结：numpy.random中部分函数列表】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Data%20Science/004-NumPy%E5%9F%BA%E7%A1%80#numpyrandom%E4%B8%AD%E9%83%A8%E5%88%86%E5%87%BD%E6%95%B0%E5%88%97%E8%A1%A8)|
 
-## 2. 项目
-
-### 2.1 基础项目
-
-机器学习 & 深度学习领域的若干经典数据集练习，采用不同的框架和方法进行问题解决。
-
-001~008主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)。
-
-|项目|项目|项目|项目|
-| :--: |:--: |:--: |:--: |
-|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/001-MNIST)|[IMDB](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/002-IMDB)|[路透社新闻分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/003-%E8%B7%AF%E9%80%8F%E7%A4%BE%E6%96%B0%E9%97%BB%E5%88%86%E7%B1%BB)|[波士顿房价预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/004-%E6%B3%A2%E5%A3%AB%E9%A1%BF%E6%88%BF%E4%BB%B7%E9%A2%84%E6%B5%8B)|
-|[猫狗图像分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/005-%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB)|[Jena温度预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/006-Jena%E6%B8%A9%E5%BA%A6%E9%A2%84%E6%B5%8B)|[LSTM文本生成](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/007-LSTM%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90)|[DeepDream](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/008-DeepDream)|
-
-### 2.2 其他项目
-
-机器学习 & 深度学习领域的杂类问题练习。
-
-|项目|项目|项目|项目|
-| :--: |:--: |:--: |:--: |
-|[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DL-ML-Project/101-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
