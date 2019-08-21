@@ -174,6 +174,7 @@ DataFrame
     包含已经排序的列集合，每一列可以是不同类型的值(数值，字符串，布尔值等)
     有行索引和列索引，相当于一个共享相同索引的Series的字典
     数据被存储为一个以上的二维块
+    对数据的修改都是直接在数据上进行处理,如果需要复制，需要使用Series的copy方法
 """
 
 # 利用包含等长的列表或者NumPy数组的字典创建DataFrame
@@ -245,25 +246,171 @@ print(frame2.year) # 只在列名是有效的Python变量名时才有效
 #six      2003
 #Name: year, dtype: int64
 
+# 通过特殊属性loc可以选取行
 print('Example 20:')
+print(frame2.loc['three'])
+#year     2002
+#state    Ohio
+#pop       3.6
+#debt      NaN
+#Name: three, dtype: object
 
-
+# 可以对列进行赋值
 print('Example 21:')
+frame2['debt'] =16.5 # 赋值为相同的标量
+print(frame2)
+#       year   state  pop  debt
+#one    2000    Ohio  1.5  16.5
+#two    2001    Ohio  1.7  16.5
+#three  2002    Ohio  3.6  16.5
+#four   2001  Nevada  2.4  16.5
+#five   2002  Nevada  2.9  16.5
+#six    2003  Nevada  3.2  16.5
+frame2['debt'] = np.arange(6.) # 赋值为值数组，其长度需要和DataFrame长度相匹配
+print(frame2) 
+#       year   state  pop  debt
+#one    2000    Ohio  1.5   0.0
+#two    2001    Ohio  1.7   1.0
+#three  2002    Ohio  3.6   2.0
+#four   2001  Nevada  2.4   3.0
+#five   2002  Nevada  2.9   4.0
+#six    2003  Nevada  3.2   5.0
 
-
+# 可以将Series赋值给一列，Series将按照DataFrame的索引重新排列
+# 空缺处将填写缺失值
 print('Example 22:')
+val = pd.Series([-1.2, -1.5, -1.7], index=['two', 'four', 'five']) 
+frame2['debt'] = val
+print(frame2)
+#       year   state  pop  debt
+#one    2000    Ohio  1.5   NaN
+#two    2001    Ohio  1.7  -1.2
+#three  2002    Ohio  3.6   NaN
+#four   2001  Nevada  2.4  -1.5
+#five   2002  Nevada  2.9  -1.7
+#six    2003  Nevada  3.2   NaN
 
-
+# 可以通过布尔值进行赋值　
 print('Example 23:')
+frame2['eastern'] = frame2.state == 'Ohio'
+print(frame2)
+#       year   state  pop  debt  eastern
+#one    2000    Ohio  1.5   NaN     True
+#two    2001    Ohio  1.7  -1.2     True
+#three  2002    Ohio  3.6   NaN     True
+#four   2001  Nevada  2.4  -1.5    False
+#five   2002  Nevada  2.9  -1.7    False
+#six    2003  Nevada  3.2   NaN    False
 
-
+# del方法可以删除之前新建的列
 print('Example 24:')
+del frame2['eastern']
+print(frame2)
+#       year   state  pop  debt
+#one    2000    Ohio  1.5   NaN
+#two    2001    Ohio  1.7  -1.2
+#three  2002    Ohio  3.6   NaN
+#four   2001  Nevada  2.4  -1.5
+#five   2002  Nevada  2.9  -1.7
+#six    2003  Nevada  3.2   NaN
 
-
+# 对于包含字典的嵌套字典，外层字典的键将作为列，内层字典的键将作为行索引
 print('Example 25:')
+pop = {'Nevada': {2001: 2.4, 2002: 2.9},
+       'Ohio': {2000: 1.5, 2001: 1.7, 2002: 3.6}}
+frame3 = pd.DataFrame(pop)
+print(frame3)
+#      Nevada  Ohio
+#2000     NaN   1.5
+#2001     2.4   1.7
+#2002     2.9   3.6
 
+# 可以使用.T对DataFrame进行转置
+# 转置相当于将原来的DataFrame行列互换
+print('Example 26:')
+print(frame3.T)
+#        2000  2001  2002
+#Nevada   NaN   2.4   2.9
+#Ohio     1.5   1.7   3.6
 
-print('Example :')
+# 如果显式指明索引，内部键将不会被排序
+# 索引若没有对应值，则将用NaN填充　
+print('Example 27:')
+frame4 = pd.DataFrame(pop, index=[2001, 2002, 2003])
+print(frame4)
+#      Nevada  Ohio
+#2001     2.4   1.7
+#2002     2.9   3.6
+#2003     NaN   NaN
 
+# 如果DataFrame的索引和列拥有name属性，则name属性将被显示
+print('Example 28:')
+frame3.index.name = 'year'; frame3.columns.name = 'state'
+print(frame3)
+#state  Nevada  Ohio
+#year               
+#2000      NaN   1.5
+#2001      2.4   1.7
+#2002      2.9   3.6
+
+# DataFrame的values属性会将包含在DataFrame中的数据以二维ndarray形式返回
+print('Example 29:')
+print(frame3.values)
+#[[nan 1.5]
+# [2.4 1.7]
+# [2.9 3.6]]
+
+print('Example 30:')
+print(frame2.values)
+#[[2000 'Ohio' 1.5 nan]
+# [2001 'Ohio' 1.7 -1.2]
+# [2002 'Ohio' 3.6 nan]
+# [2001 'Nevada' 2.4 -1.5]
+# [2002 'Nevada' 2.9 -1.7]
+# [2003 'Nevada' 3.2 nan]]
+
+"""
+索引对象
+    索引对象是用于存储轴标签和其他元数据(轴名或者标签)
+    索引对象是不可变的
+"""
+print('Example 31:')
+obj = pd.Series(range(3), index=['a', 'b', 'c'])
+index = obj.index
+print(index)
+# Index(['a', 'b', 'c'], dtype='object')
+# 无法对Index进行赋值，因为索引标签不可变
+
+print('Example 32:')
+labels = pd.Index(np.arange(3))
+print(labels)
+# Int64Index([0, 1, 2], dtype='int64')
+
+print('Example 33:')
+obj2 = pd.Series([1.5, -2.5, 0], index=labels)
+print(obj2)
+#0    1.5
+#1   -2.5
+#2    0.0
+#dtype: float64
+print(obj2.index is labels) # True
+
+print('Example 34:')
+print(frame3)
+#state  Nevada  Ohio
+#year               
+#2000      NaN   1.5
+#2001      2.4   1.7
+#2002      2.9   3.6
+print(frame3.columns)
+# Index(['Nevada', 'Ohio'], dtype='object', name='state')
+print('Ohio' in frame3.columns) # True
+print(2003 in frame3.index) # False
+
+# 索引对象可以包含重复标签
+print('Example 35:')
+dup_labels = pd.Index(['foo', 'foo', 'bar', 'bar'])
+print(dup_labels)
+# Index(['foo', 'foo', 'bar', 'bar'], dtype='object')
 
 
