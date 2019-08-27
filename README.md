@@ -2,7 +2,7 @@
 
 本项目是对于机器学习和深度学习自学知识的总结，会持续更新。
 
-其中***[Issues](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues)***板块将更新一些学习笔记和总结的内容。
+其中 ***[Issues](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues)*** 板块将更新一些学习笔记和总结的内容。
 
 ## 1 机器学习
 
