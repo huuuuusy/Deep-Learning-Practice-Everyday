@@ -61,6 +61,7 @@ TensorFlow框架学习
 | :--: |:--: |
 |[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/01-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)|使用TensorFlow进行线性回归|
 |[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/02-MNIST)|本例使用最简单的机器学习模型--单一softmax regression对MNIST进行分类,主要目的是熟悉TensorFlow的执行流程|
+|[softmax算法与损失函数](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/03-softmax%E7%AE%97%E6%B3%95%E4%B8%8E%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0)|使用softmax计算loss|
 
 ## 3 数据处理
 

@@ -3,7 +3,7 @@
 @GitHub: https://github.com/huuuuusy
 
 系统： Ubuntu 18.04
-IDE:  VS Code 1.36
+IDE:  VS Code 1.37
 框架： TensorFlow-GPU == 1.13.1
 介绍： 使用softmax计算loss
 """
@@ -73,3 +73,31 @@ with tf.Session() as sess:
 # 非标准的one-hot编码输出的结果是[2.1721554 2.7696736] 
 # 非标准one-hot编码的labels和logits之间的交叉熵差异比标准one-hot编码的小
 # 说明非标准one-hot编码无法较好的表达分类正确和分类错误的交叉熵之间的差异
+
+"""
+sparse交叉熵
+    sparse_softmax_cross_entropy_with_logits针对非标准one-hot编码设计
+    可以对非标准one-hot计算交叉熵，解决上面的问题
+    sparse_softmax_cross_entropy_with_logits的样本真实值和预测值不需要one-hot编码
+    但是要求分类的个数一定是从0开始
+"""
+labels = [2,1]
+result5 = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=labels, logits=logits)
+with tf.Session() as sess:
+    print('result5 = ', sess.run(result5), '\n') 
+
+# [0.02215516 3.0996735 ]和标准one-hot编码一致
+# sparse交叉熵已经包含将非标准one-hot转化为标砖one-hot的操作
+
+"""
+计算loss
+"""
+loss = tf.reduce_mean(result1)
+with tf.Session() as sess:
+    print ("loss=",sess.run(loss)) # 1.5609143
+    
+labels = [[0,0,1],[0,1,0]]    
+# -tf.reduce_sum(labels * tf.log(logits_scaled),1)等价于softmax_cross_entropy_with_logits
+loss2 = tf.reduce_mean(-tf.reduce_sum(labels * tf.log(logits_scaled),1) )
+with tf.Session() as sess:
+    print ("loss2=",sess.run(loss2)) # 1.5609143
