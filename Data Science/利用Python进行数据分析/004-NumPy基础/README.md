@@ -82,7 +82,7 @@
 |setdiff1d(x,y)|差集，在x中但是不在y中的元素|
 |setxor1d(x,y)|异或集，在x或者y中，但是不属于x与y交集的元素|
 
-## 05_ Linear Algebra
+## 05 Linear Algebra
 
 ### 常用numpy.linalg函数
 
@@ -100,7 +100,7 @@
 |solve|求解线性系统Ax=b,其中A是方阵|
 |lstsq|计算Ax=b的最小二乘解|
 
-## 06_Pseudorandom Number Generation
+## 06 Pseudorandom Number Generation
 
 ### numpy.random中部分函数列表
 
