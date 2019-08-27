@@ -41,19 +41,26 @@
 
 keras开发者编写，介绍利用keras进行深度学习模型构建和训练。
 
-|项目|项目|项目|项目|
-| :--: |:--: |:--: |:--: |
-|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/01-MNIST)|[IMDB](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/02-IMDB)|[路透社新闻分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/03-%E8%B7%AF%E9%80%8F%E7%A4%BE%E6%96%B0%E9%97%BB%E5%88%86%E7%B1%BB)|[波士顿房价预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/04-%E6%B3%A2%E5%A3%AB%E9%A1%BF%E6%88%BF%E4%BB%B7%E9%A2%84%E6%B5%8B)|
-|[猫狗图像分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/05-%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB)|[Jena温度预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/06-Jena%E6%B8%A9%E5%BA%A6%E9%A2%84%E6%B5%8B)|[LSTM文本生成](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/07-LSTM%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90)|[DeepDream](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/08-DeepDream)|
-|[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/09-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|
+|项目|内容|
+| :--: |:--: |
+|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/01-MNIST)|MNIST是手写数字数据集，每张图是28×28的灰度图;使用模型对手写数字数据集进行分类|
+|[IMDB](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/02-IMDB)|IMDB来自电影数据库，是影评数据集;使用模型对影评数据集进行情感分类|
+|[路透社新闻分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/03-%E8%B7%AF%E9%80%8F%E7%A4%BE%E6%96%B0%E9%97%BB%E5%88%86%E7%B1%BB)| Reuters数据集是新闻的多分类文本数据集，有46个主题;使用模型对新闻主题进行分类|
+|[波士顿房价预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/04-%E6%B3%A2%E5%A3%AB%E9%A1%BF%E6%88%BF%E4%BB%B7%E9%A2%84%E6%B5%8B)|波士顿房价预测数据包含404个训练样本，102个测试样本;使用模型对波士顿房价进行预测|
+|[猫狗图像分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/05-%E7%8C%AB%E7%8B%97%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB)|猫狗数据集是kaggle竞赛的数据集，包含25000张图片，其中每一类各有12500张图片;使用模型对猫狗类别进行分类|
+|[Jena温度预测](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/06-Jena%E6%B8%A9%E5%BA%A6%E9%A2%84%E6%B5%8B)|Jena气象数据是每10分钟记录与气象有关的14个不同的量值。使用模型对Jena地区的温度进行预测|
+|[LSTM文本生成](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/07-LSTM%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90)|学习尼采的作品，生成具有尼采风格的文字|
+|[DeepDream](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/08-DeepDream)|利用ImageNet上的预训练网络，实现DeepDream效果。|
+|[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/09-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|可视化CNN的中间输出（中间激活）<br>可视化CNN的过滤器<br>可视化图像中类激活的热力图|
 
 ### 2.２《深度学习之TensorFlow》
 
 TensorFlow框架学习
 
-|项目|项目|项目|项目|
-| :--: |:--: |:--: |:--: |
-|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/01-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/02-MNIST)|
+|项目|内容|
+| :--: |:--: |
+|[线性回归](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/01-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92)|使用TensorFlow进行线性回归|
+|[MNIST](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/02-MNIST)|本例使用最简单的机器学习模型--单一softmax regression对MNIST进行分类,主要目的是熟悉TensorFlow的执行流程|
 
 ## 3 数据处理
 
