@@ -83,4 +83,4 @@ TensorFlow框架学习
 
 |类别|内容|
 | :--: |:--: |
-|深度学习|[激活函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/1)|
+|深度学习|[激活函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/1)<br>[损失函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/3)|
