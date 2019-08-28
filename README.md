@@ -7,7 +7,7 @@
 |分类|标签|
 |:--: |:--: |
 |领域|[Data Science](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Data%20Science)<br>[Deep Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Deep%20Learning)<br>[Machine Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Machine%20Learning)|
-|工具|[Numpy](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/NumPy)|
+|工具|[Numpy](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/NumPy)<br>[sklearn](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/sklearn)|
 |类别|[Summary](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Summary)|
 
 ## 1 机器学习
@@ -86,4 +86,3 @@ TensorFlow框架学习
 | :--: |:--: |
 |深度学习|[激活函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/1)<br>[损失函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/3)|
 |NumPy|[np.random函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/4)|
-
