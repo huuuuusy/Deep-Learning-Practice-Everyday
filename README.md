@@ -6,9 +6,10 @@
 
 |分类|标签|
 |:--: |:--: |
-|领域|[Data Science](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Data%20Science)<br>[Deep Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Deep%20Learning)<br>[Machine Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Machine%20Learning)|
+|领域|[Data Science](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Data%20Science)<br>[Deep Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Deep%20Learning)<br>[Machine Learning](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Machine%20Learning)<br>[Math](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Math)|
 |工具|[Numpy](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/NumPy)<br>[sklearn](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/sklearn)|
 |类别|[Summary](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Summary)|
+|书籍|[Book-Statistical Learning Method](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/labels/Book-Statistical%20Learning%20Method)|
 
 ## 1 机器学习
 
@@ -33,6 +34,7 @@
 
 |章节|内容|
 | :--: |:--: |
+|第1章－统计学习方法概论|[【笔记】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/7)<br>[【代码】]()|
 
 ## 2 深度学习
 
