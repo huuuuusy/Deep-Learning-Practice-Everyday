@@ -85,5 +85,5 @@ TensorFlow框架学习
 |类别|内容|
 | :--: |:--: |
 |深度学习|[激活函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/1)<br>[损失函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/3)|
-|NumPy|[np.random函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/4)|
+|NumPy|[np.random函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/4)<br>[NumPy中axis用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/6)|
 |sklearn|[OneHotEncoder用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/5)|

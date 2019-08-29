@@ -64,7 +64,7 @@ plt.ylabel("Tumor size (in cm)")
 plt.savefig("Original 2-Class Data.png")
 plt.show()
 
-print(X.shape) # (1000, 2)
+print(X.shape) # (1000, 2),一共1000行，2列，每一行的第一个数字表示scaled age,第二个数字表示tumor size
 print(Y.shape) # (1000,)
 
 """
@@ -118,6 +118,10 @@ with tf.Session() as sess:
     plt.scatter(train_X[:,0], train_X[:,1], c=colors)
 
     x = np.linspace(-1,8,200) 
+    # 模型生成的z用公式表示为z=x1*w1+x2*w2+b
+    # 将x1、x2映射到直角坐标系的x和y,则z可以被分为大于0和小于0两部分
+    # 当z=0时，代表直线本身
+    # 令z=0:x2=-x1*w1/w2-b/w2 --> y=-x*w1/w2-b/w2
     y = -x*(sess.run(W)[0]/sess.run(W)[1])-sess.run(b)/sess.run(W)[1]
     plt.plot(x,y, label='Fitted line')
     plt.legend()
