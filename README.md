@@ -34,7 +34,7 @@
 
 |章节|内容|
 | :--: |:--: |
-|第1章－统计学习方法概论|[【笔记】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/7)<br>[【代码】]()|
+|第1章－统计学习方法概论|[【笔记】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/7)<br>[【代码】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/01-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA)|
 
 ## 2 深度学习
 
@@ -89,3 +89,4 @@ TensorFlow框架学习
 |深度学习|[激活函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/1)<br>[损失函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/3)|
 |NumPy|[np.random函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/4)<br>[NumPy中axis用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/6)|
 |sklearn|[OneHotEncoder用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/5)|
+|Math|[分类模型评估指标总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/8)|
