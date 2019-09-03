@@ -77,7 +77,7 @@ TensorFlow框架学习
 
 |类别|内容|
 | :--: |:--: |
-|深度学习|[激活函数总结](https://app.yinxiang.com/fx/6142562f-7d17-4a7b-8eed-34f5e500534d)<br>[损失函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/3)|
+|深度学习|[激活函数总结](https://app.yinxiang.com/fx/6142562f-7d17-4a7b-8eed-34f5e500534d)<br>[损失函数总结](https://app.yinxiang.com/fx/3a8ce70e-2e4b-45fd-80e9-53cb10288839)|
 |NumPy|[np.random函数总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/4)<br>[NumPy中axis用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/6)|
 |sklearn|[OneHotEncoder用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/5)|
 |Math|[分类模型评估指标总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/8)|
