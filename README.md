@@ -25,7 +25,7 @@
 
 |章节|内容|
 | :--: |:--: |
-|第1章－统计学习方法概论|[【笔记】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/7)<br>[【代码】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/01-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA)|
+|第1章－统计学习方法概论|[【笔记】](https://app.yinxiang.com/fx/3feaf323-73e9-49e8-8314-db716c4d905b)<br>[【代码】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/01-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA)|
 
 ## 2 深度学习
 
