@@ -78,6 +78,6 @@ TensorFlow框架学习
 |类别|内容|
 | :--: |:--: |
 |深度学习|[激活函数总结](https://app.yinxiang.com/fx/6142562f-7d17-4a7b-8eed-34f5e500534d)<br>[损失函数总结](https://app.yinxiang.com/fx/3a8ce70e-2e4b-45fd-80e9-53cb10288839)|
-|NumPy|[np.random函数总结](https://app.yinxiang.com/fx/a766dec2-4b47-4cdc-bb47-e6d073afb4c9)<br>[NumPy中axis用法解析](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/6)|
+|NumPy|[np.random函数总结](https://app.yinxiang.com/fx/a766dec2-4b47-4cdc-bb47-e6d073afb4c9)<br>[NumPy中axis用法解析](https://app.yinxiang.com/fx/dce6e39f-3cc3-490e-b82e-9676ca0424a7)|
 |sklearn|[sklearn中OneHotEncoder用法解析](https://app.yinxiang.com/fx/d872c928-7dfa-4933-b22d-20131e7526f3)|
-|Math|[分类模型评估指标总结](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/issues/8)|
+|Math|[分类模型评估指标总结](https://app.yinxiang.com/fx/8c199c81-17cc-433c-9d63-1f669008350e)|
