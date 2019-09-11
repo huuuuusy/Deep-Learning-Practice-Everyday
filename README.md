@@ -4,9 +4,7 @@
 
 ## 1 机器学习
 
-### 1.1 《机器学习实战》
-
-机器学习算法，主要参考《机器学习实战》。
+机器学习算法，主要参考《机器学习实战》和李航2012版本《统计学习方法》。
 
 其他参考资料：
 
@@ -14,18 +12,11 @@
 
 [ApacheAI的讲解【强烈推荐】](https://github.com/apachecn/AiLearning#1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0---%E5%9F%BA%E7%A1%80)
 
-|章节|内容|
-| :--: |:--: |
-|[kNN](https://github.com/apachecn/AiLearning/blob/master/docs/ml/2.k-%E8%BF%91%E9%82%BB%E7%AE%97%E6%B3%95.md)|[【简单kNN】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/01-%E7%AE%80%E5%8D%95kNN)<br>[【约会网站数据分析】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/02-%E7%BA%A6%E4%BC%9A%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)<br>[【手写数字识别】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/03-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)|
-|[Decision Tree](https://github.com/apachecn/AiLearning/blob/master/docs/ml/3.%E5%86%B3%E7%AD%96%E6%A0%91.md)|[【贷款发放】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/02-Decision%20Tree/01-%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)【190708：补全基本代码，待进一步理解原理，待学习决策树可视化】|
-
-### 1.2 《统计学习方法》
-
-参考李航2012版本《统计学习方法》，作为《机器学习实战》的理论补充。
-
-|章节|内容|
-| :--: |:--: |
-|第1章－统计学习方法概论|[【笔记】](https://app.yinxiang.com/fx/3feaf323-73e9-49e8-8314-db716c4d905b)<br>[【代码】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/01-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA)|
+|内容|《机器学习实战》|《统计学习方法》|笔记|
+| :--: |:--: |:--:|:--: |
+|统计学习方法概论||[【代码:过拟合与正则化】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/01-%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%A6%82%E8%AE%BA)|[【笔记】](https://app.yinxiang.com/fx/3feaf323-73e9-49e8-8314-db716c4d905b)|
+|k近邻|[【代码：简单kNN】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/01-%E7%AE%80%E5%8D%95kNN)<br>[【代码：约会网站数据分析】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/02-%E7%BA%A6%E4%BC%9A%E7%BD%91%E7%AB%99%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90)<br>[【代码：手写数字识别】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/01-KNN/03-%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB)||
+|决策树|[【代码：贷款发放】](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Machine%20Learning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98/02-Decision%20Tree/01-%E8%B4%B7%E6%AC%BE%E5%8F%91%E6%94%BE)||
 
 ## 2 深度学习
 
