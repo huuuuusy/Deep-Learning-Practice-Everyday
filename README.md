@@ -4,13 +4,19 @@
 
 ## 1 机器学习
 
-机器学习算法，主要参考《机器学习实战》和李航2012版本《统计学习方法》。
+机器学习算法，理论知识方面主要参考《机器学习实战》和李航2012版本《统计学习方法》；库方面除了自己实现算法之外，也学习sklearn相关库进行算法的实现。
 
-其他参考资料：
+参考资料：
 
-[Jack Cui的博客](https://github.com/Jack-Cherish/Machine-Learning)
+[sklearn-doc-zh：sklearn库的中文文档](https://github.com/apachecn/sklearn-doc-zh)
 
-[ApacheAI的讲解【强烈推荐】](https://github.com/apachecn/AiLearning#1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0---%E5%9F%BA%E7%A1%80)
+[Machine-Learning-is-Fun:《统计学习方法》及其他机器学习算法的实现](https://github.com/liweiwei1419/Machine-Learning-is-Fun)
+
+[lihang-code:《统计学习方法》代码实现](https://github.com/fengdu78/lihang-code)
+
+[Machine-Learning：《机器学习实战》代码+讲解](https://github.com/Jack-Cherish/Machine-Learning)
+
+[机器学习 - 基础：《机器学习实战》代码+讲解](https://github.com/apachecn/AiLearning#1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0---%E5%9F%BA%E7%A1%80)
 
 |内容|代码|笔记|
 | :--: |:--: |:--:|
