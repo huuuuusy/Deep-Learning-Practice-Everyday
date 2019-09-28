@@ -26,9 +26,13 @@
 
 ## 2 深度学习
 
-### 2.1 [《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)
+### 2.1 框架
 
-keras开发者编写，介绍利用keras进行深度学习模型构建和训练。
+本部分主要是对深度学习常用的几种主流框架的学习。
+
+#### 2.1.1 Keras
+
+主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)一书，用keras进行深度学习模型构建和训练。
 
 |项目|内容|
 | :--: |:--: |
@@ -42,9 +46,9 @@ keras开发者编写，介绍利用keras进行深度学习模型构建和训练�
 |[DeepDream](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/08-DeepDream)|利用ImageNet上的预训练网络，实现DeepDream效果。|
 |[可视化CNN](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/python%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/09-%E5%8F%AF%E8%A7%86%E5%8C%96CNN)|可视化CNN的中间输出（中间激活）<br>可视化CNN的过滤器<br>可视化图像中类激活的热力图|
 
-### 2.２《深度学习之TensorFlow》
+#### 2.1.２ TensorFlow
 
-TensorFlow框架学习
+主要参考《深度学习之TensorFlow》一书对TensorFlow框架进行学习和总结。
 
 |项目|内容|
 | :--: |:--: |
@@ -53,6 +57,12 @@ TensorFlow框架学习
 |[softmax算法与损失函数](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/03-softmax%E7%AE%97%E6%B3%95%E4%B8%8E%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0)|使用softmax计算loss|
 |[退化学习率](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/04-%E9%80%80%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%8E%87)|使用退化学习率，在训练速度和精度之间找到平衡|
 |[线性分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/05-%E7%BA%BF%E6%80%A7%E5%88%86%E7%B1%BB)|线性单分类和线性多分类问题分析|
+
+#### 2.1.3 PyTorch
+
+主要参考《深度学习框架PyTorch入门与实践》一书，对PyTorch框架进行学习。
+
+
 
 ## 3 数据处理
 
