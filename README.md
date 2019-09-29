@@ -32,7 +32,7 @@
 
 #### 2.1.1 Keras
 
-主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)一书，用keras进行深度学习模型构建和训练。
+主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)一书
 
 |项目|内容|
 | :--: |:--: |
@@ -48,7 +48,7 @@
 
 #### 2.1.２ TensorFlow
 
-主要参考《深度学习之TensorFlow》一书对TensorFlow框架进行学习和总结。
+主要参考《深度学习之TensorFlow》一书
 
 |项目|内容|
 | :--: |:--: |
@@ -60,8 +60,7 @@
 
 #### 2.1.3 PyTorch
 
-主要参考《深度学习框架PyTorch入门与实践》一书，对PyTorch框架进行学习。
-
+主要参考《深度学习框架PyTorch入门与实践》一书
 
 
 ## 3 数据处理
