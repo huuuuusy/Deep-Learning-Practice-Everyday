@@ -101,9 +101,90 @@ print('Example 5:')
 print(x[:, 1])
 #tensor([0.0354, 0.2583, 0.5161, 0.9629, 0.0473])
 
+"""
+Tensor和Numpy的数组之间的互操作非常容易且快速
+对于Tensor不支持的操作，可以先转为Numpy数组处理，之后再转回Tensor
+"""
 print('Example 6:')
+a = t.ones(5)# 新建一个全1的Tensor
+print(a) # tensor([1., 1., 1., 1., 1.])
+b = a.numpy() # Tensor -> Numpy
+print(b) # [1. 1. 1. 1. 1.]
+import numpy as np
+a = np.ones(5) 
+b = t.from_numpy(a) # Numpy->Tensor
+print(a) # [1. 1. 1. 1. 1.]
+print(b) # tensor([1., 1., 1., 1., 1.], dtype=torch.float64)
+
+"""
+Tensor和numpy对象共享内存，所以他们之间的转换很快，而且几乎不会消耗什么资源
+但这也意味着，如果其中一个变了，另外一个也会随之改变
+"""
 print('Example 7:')
+b.add_(1) # 以`_`结尾的函数会修改自身
+print(a) # [2. 2. 2. 2. 2.]
+print(b) # tensor([2., 2., 2., 2., 2.], dtype=torch.float64)
+# 因为b是从a中转换来的，所以a和b共享内存，当其中一个改变时，另一个也随之改变
+
+"""
+利用scalar.item从tensor中取出数据
+直接tensor[idx]得到的还是一个tensor: 一个0-dim 的tensor，一般称为scalar.
+利用scalar.item可以从scalar中取出具体的数值
+"""
 print('Example 8:')
+scalar = b[0]
+print(scalar) # tensor(2., dtype=torch.float64)
+print(scalar.size()) # torch.Size([]),scalar是一个0-dim的tensor
+print(scalar.item()) # 2.0,利用scalar.item取出具体的数值
+
 print('Example 9:')
+tensor = t.tensor([2]) # 注意和scalar的区别
+print(tensor) # tensor([2])，这里是一个1-dim的tensor
+print(scalar) # tensor(2., dtype=torch.float64),这里是一个0-dim的tensor
+
 print('Example 10:')
+print(tensor.size()) # torch.Size([1])
+print(scalar.size()) # torch.Size([])
+
+# 只有一个元素的tensor也可以调用`tensor.item()`
 print('Example 11:')
+print(tensor.item()) # 2
+print(scalar.item()) # 2.0
+
+"""
+在pytorch中还有一个和np.array 很类似的接口: torch.tensor
+"""
+print('Example 12:')
+tensor = t.tensor([3,4]) # 新建一个包含 3，4 两个元素的tensor
+scalar = t.tensor(3)
+print(scalar) # tensor(3)
+
+print('Example 13:')
+old_tensor = tensor
+new_tensor = t.tensor(old_tensor)
+new_tensor[0] = 1111
+print(old_tensor) # tensor([3, 4])
+print(new_tensor) # tensor([1111,    4])
+
+"""
+t.tensor()总是会进行数据拷贝，新tensor和原来的数据不再共享内存
+如果想共享内存，建议使用torch.from_numpy()或者tensor.detach()来新建一个tensor, 二者共享内存
+"""
+new_tensor = old_tensor.detach() # tensor.detach()会建立共享内存的新tensor
+new_tensor[0] = 1111
+print(old_tensor) # tensor([1111,    4])
+print(new_tensor) # tensor([1111,    4])
+
+"""
+Tensor可通过.cuda 方法转为GPU的Tensor
+"""
+device = t.device("cuda:0" if t.cuda.is_available() else "cpu")
+x = x.to(device)
+y = y.to(device)
+z = x+y
+print(z)
+#tensor([[1.2858, 0.8321, 1.6186],
+#        [0.2912, 0.6874, 1.4138],
+#        [1.3367, 1.3960, 2.8293],
+#        [1.3756, 0.3777, 2.6730],
+#        [0.3936, 2.3824, 1.0679]], device='cuda:0')
