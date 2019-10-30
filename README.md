@@ -58,10 +58,9 @@
 |[退化学习率](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/04-%E9%80%80%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%8E%87)|使用退化学习率，在训练速度和精度之间找到平衡|
 |[线性分类](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/Deep%20Learning/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B9%8BTensorFlow/05-%E7%BA%BF%E6%80%A7%E5%88%86%E7%B1%BB)|线性单分类和线性多分类问题分析|
 
-#### 2.1.3 PyTorch
+#### 2.1.3 PyTorch 
 
-主要参考《深度学习框架PyTorch入门与实践》一书
-
+主要参考《深度学习框架PyTorch入门与实践
 
 ## 3 数据处理
 
