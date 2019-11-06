@@ -15,7 +15,7 @@ IDE:  VS Code 1.35.1
 import keras
 keras.__version__
 
-
+# 指定GPU
 import os  
 os.environ['CUDA_VISIBLE_DEVICES']='2,3'
 
