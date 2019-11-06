@@ -5,6 +5,7 @@
 系统： Ubuntu 18.04
 IDE:  VS Code 1.35.1
 框架： TensorFlow-GPU == 1.13.1
+
       keras == 2.2.3
 介绍： MNIST是深度学习领域最常用的数据集
       包含60000张训练图像和10000张测试图像
