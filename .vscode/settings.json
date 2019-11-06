@@ -1,7 +1,0 @@
-{
-    "python.pythonPath": "/home/hu/anaconda3/envs/tf/bin/python",
-    "python.linting.pylintArgs": [
-        "----extension-pkg-whitelist=1xml"
-    ],
-    "git.ignoreLimitWarning": true,
-}
