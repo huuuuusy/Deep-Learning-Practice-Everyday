@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/hu/anaconda3/envs/tf-gpu/bin/python",
+    "python.pythonPath": "/home/hushiyu/anaconda3/envs/tf-gpu/bin/python",
     "python.linting.pylintArgs": [
         "----extension-pkg-whitelist=1xml"
     ],
