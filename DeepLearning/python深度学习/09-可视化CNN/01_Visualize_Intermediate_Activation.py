@@ -16,14 +16,14 @@ Part 1. 下载猫狗数据集上的训练模型
 
 from keras.models import load_model
 
-model = load_model('/home/hu/Documents/Huuuuusy-Github/Deep-Learning-Practice-Everyday/Github/Project/Practice/001-可视化CNN/cats_and_dogs_small_2.h5')
+model = load_model('cats_and_dogs_small_2.h5')
 model.summary()
 
 """
 Part 2. 显示待测试图片
 """
 
-img_path = '/home/hu/Documents/Huuuuusy-Github/Deep-Learning-Practice-Everyday/Github/Project/Practice/001-可视化CNN/cat.1700.jpg'
+img_path = 'cat.1700.jpg'
 
 from keras.preprocessing import image
 import numpy as np 
