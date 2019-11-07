@@ -17,6 +17,10 @@ Part 1. 数据准备
 import keras
 import numpy as np
 
+# 如果是多GPU服务器，取消下面的注释，并指定显卡序号
+#import os
+#os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+
 path = keras.utils.get_file(
     'nietzsche.txt',
     origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')

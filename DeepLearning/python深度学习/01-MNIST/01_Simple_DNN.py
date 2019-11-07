@@ -16,9 +16,8 @@ IDE:  VS Code 1.35.1
 import keras
 keras.__version__
 
-import os
-
 # 如果是多GPU服务器，取消下面的注释，并指定显卡序号
+import os
 #os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
 
 # 下载数据
