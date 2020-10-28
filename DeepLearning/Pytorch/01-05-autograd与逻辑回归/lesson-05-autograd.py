@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-# @file name  : lesson-05-autograd.py
-# @author     : tingsongyu
-# @date       : 2019-08-30 10:08:00
-# @brief      : torch.autograd
-"""
 import torch
 torch.manual_seed(10)
 
@@ -21,7 +15,7 @@ if flag:
     y = torch.mul(a, b)
 
     y.backward(retain_graph=True)
-    # print(w.grad)
+    print(w.grad)
     y.backward()
 
 # ====================================== grad_tensors ==============================================
@@ -109,8 +103,8 @@ if flag:
     print(id(a), a)
 
 
-flag = True
-# flag = False
+# flag = True
+flag = False
 if flag:
 
     w = torch.tensor([1.], requires_grad=True)

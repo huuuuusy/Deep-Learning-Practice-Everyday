@@ -1,11 +1,9 @@
 # -*- coding:utf-8 -*-
 """
-@file name  : lesson-03.py
-@author     : tingsongyu
-@date       : 2018-08-26
-@brief      : 张量操作
+tensor的基本操作：
+    拼接与切分
+    索引
 """
-
 import torch
 torch.manual_seed(1)
 

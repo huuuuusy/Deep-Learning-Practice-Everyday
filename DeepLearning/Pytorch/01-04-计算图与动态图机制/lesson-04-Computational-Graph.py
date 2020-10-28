@@ -1,10 +1,4 @@
 # -*- coding:utf-8 -*-
-"""
-@file name  : lesson-04-Computational-Graph.py
-@author     : tingsongyu
-@date       : 2018-08-28
-@brief      : 计算图示例
-"""
 import torch
 
 w = torch.tensor([1.], requires_grad=True)
