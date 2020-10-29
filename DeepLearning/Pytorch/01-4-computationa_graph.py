@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+"""
+计算图
+"""
 import torch
 
 w = torch.tensor([1.], requires_grad=True)
