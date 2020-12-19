@@ -24,29 +24,29 @@
 
 ## 深度学习
 
-### Keras
+### [keras](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DeepLearning/keras)
 
 主要参考keras开发者编写的[《python深度学习》](https://github.com/fchollet/deep-learning-with-python-notebooks)一书
 
-- [X] MNIST:MNIST是手写数字数据集，每张图是28×28的灰度图;使用模型对手写数字数据集进行分类
-- [X] IMDB:IMDB来自电影数据库，是影评数据集;使用模型对影评数据集进行情感分类
-- [X] 路透社新闻分类:Reuters数据集是新闻的多分类文本数据集，有46个主题;使用模型对新闻主题进行分类
-- [X] 波士顿房价预测:波士顿房价预测数据包含404个训练样本，102个测试样本;使用模型对波士顿房价进行预测
-- [X] 猫狗图像分类:猫狗数据集是kaggle竞赛的数据集，包含25000张图片，其中每一类各有12500张图片;使用模型对猫狗类别进行分类
-- [X] Jena温度预测:Jena气象数据是每10分钟记录与气象有关的14个不同的量值。使用模型对Jena地区的温度进行预测
-- [X] LSTM文本生成:学习尼采的作品，生成具有尼采风格的文字
-- [X] DeepDream:利用ImageNet上的预训练网络，实现DeepDream效果
-- [X] 可视化CNN:可视化CNN的中间输出（中间激活）/可视化CNN的过滤器/可视化图像中类激活的热力图
+- [X] 【MNIST】MNIST是手写数字数据集，每张图是28×28的灰度图;使用模型对手写数字数据集进行分类
+- [X] 【IMDB】IMDB来自电影数据库，是影评数据集;使用模型对影评数据集进行情感分类
+- [X] 【路透社新闻分类】Reuters数据集是新闻的多分类文本数据集，有46个主题;使用模型对新闻主题进行分类
+- [X] 【波士顿房价预测】波士顿房价预测数据包含404个训练样本，102个测试样本;使用模型对波士顿房价进行预测
+- [X] 【猫狗图像分类】猫狗数据集是kaggle竞赛的数据集，包含25000张图片，其中每一类各有12500张图片;使用模型对猫狗类别进行分类
+- [X] 【Jena温度预测】Jena气象数据是每10分钟记录与气象有关的14个不同的量值。使用模型对Jena地区的温度进行预测
+- [X] 【LSTM文本生成】学习尼采的作品，生成具有尼采风格的文字
+- [X] 【DeepDream】利用ImageNet上的预训练网络，实现DeepDream效果
+- [X] 【可视化CNN】可视化CNN的中间输出（中间激活）/可视化CNN的过滤器/可视化图像中类激活的热力图
 
 ### PyTorch 
 
 ## 数据处理
 
-### 可视化
+### [可视化](https://github.com/huuuuusy/Deep-Learning-Practice-Everyday/tree/master/DataScience/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96)
 
 利用Python3对数据进行可视化
 
-- [X] exp1-美国人口与种族变迁史
+- [X] [【exp1-美国人口与种族变迁史】](https://nbviewer.jupyter.org/github/huuuuusy/Deep-Learning-Practice-Everyday/blob/master/DataScience/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/exp1-%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%8F%A3%E4%B8%8E%E7%A7%8D%E6%97%8F%E5%8F%98%E8%BF%81%E5%8F%B2.ipynb)散点图接口及其参数的使用/漏斗图的绘制/画布上多子图的绘制/散点图的数据拟合/颜色条的绘制和应用/数据对数变换技巧
 
 
 ### [《利用Python进行数据分析》](https://github.com/wesm/pydata-book)
