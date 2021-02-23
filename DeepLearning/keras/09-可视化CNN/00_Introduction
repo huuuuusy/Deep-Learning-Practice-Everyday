@@ -1,7 +1,0 @@
-介绍：
-    01_Visualize_Intermediate_Activation
-        可视化CNN的中间输出（中间激活）：理解CNN连续的层如何对输入进行变换
-    02_Visualize_Convnet_Filiter
-        可视化CNN的过滤器：理解CNN每个过滤器最容易接受的视觉模式或者视觉概念
-    03_Visualize_Heatmap
-        可视化图像中类激活的热力图：理解图像中哪部分被识别为属于某种类别，从而定位图像中的物体

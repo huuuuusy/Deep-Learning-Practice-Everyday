@@ -1,7 +1,0 @@
-任务：
-    学习尼采的作品，生成具有尼采风格的文字
-
-方法：
-    01_LSTM
-        框架： keras + TensorFlow
-        模型： LSTM + softmax温度

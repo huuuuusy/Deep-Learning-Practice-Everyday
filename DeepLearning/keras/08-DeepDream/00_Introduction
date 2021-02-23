@@ -1,7 +1,0 @@
-任务：
-    利用ImageNet上的预训练网络，实现DeepDream效果
-
-方法：
-    01_Inception_V3
-        框架： keras + TensorFlow
-        模型： Inception_V3
